@@ -30,5 +30,5 @@ At the end, the model accuracies(ie.e., train, validation and test accuracies) a
 ---
 
 ### Contributors
-* Shareef Shaik
+* [Shareef Shaik](https://github.com/skshareef)
 * Tejaswine Kantu
