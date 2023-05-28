@@ -7,16 +7,24 @@ features are still in the processed images, and the other times,
 the voxels representing actual brain tissues are removed. To
 ensure the quality of the skull stripping process, researchers
 often spend a lot of time and effort to inspect the quality of
-the segmentation results. This paper suggests a deep neural
+the segmentation results. This project suggests a deep neural
 network algorithm which makes the inspection of the skull
 stripped MRI images easy and reduces the manual intervention. The deep neural network algorithm which is explored
-in this paper is 3D Convolutional Neural Networks(CNN).
+in this project is 3D Convolutional Neural Networks(CNN).
 CNNs makes it easy to process the images and evaluates the
 quality of skull stripped images with a good accuracy.
+
+The proposed model gave an accuracy of aorund 98% and 94% for both the lables respectively. While the testing accuracy of our proposed model is around 88% and 48% respectively.
+
+To get in detail understanding of this project, please go through this project [report](https://github.com/LakshmiGayathri19/Quality-Evaluation-of-Skull-Stripped-Brain-MRI-Images/blob/main/Quality_Evaluation_Model_Report.pdf)
 
 ---
 ### Dataset
 The `BET_BSE` dataset can be downloaded from [this](https://dyslexia.computing.clemson.edu/BET_BSE/) link. The dataset contains 2060 brain MRI image files and a lables.csv file. The brain MRI images are of [NIFTI](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwim1OSJh-T-AhV5nGoFHQFDAOYQjBB6BAgMEAE&url=https%3A%2F%2Fnifti.nimh.nih.gov%2Fnifti-1%2F&usg=AOvVaw0VSywKKASUHDZWjCMAhcJ2) format. The lables.csv contains the lables for each image in the dataset. The labels for each image include `Recognizable Facial Features` and `Brain Feature Loss`.
+
+The different classes of the `BET_BSE` data set is shown below along with the explanation for each image:
+
+![alt_text](https://github.com/LakshmiGayathri19/Quality-Evaluation-of-Skull-Stripped-Brain-MRI-Images/blob/main/data_vis.png)
 
 ---
 ### How to run the code?
